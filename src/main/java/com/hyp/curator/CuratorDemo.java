@@ -46,11 +46,12 @@ public class CuratorDemo
         } catch (Exception e)
         {
             e.printStackTrace();
-        } finally
-        {
-            if (client != null)
-                client.close();
         }
+//        finally
+//        {
+//            if (client != null)
+//                client.close();
+//        }
     }
 
     public static void createSyncExcutor(CuratorFramework client,String node,String data){
@@ -68,11 +69,12 @@ public class CuratorDemo
         } catch (Exception e)
         {
             e.printStackTrace();
-        } finally
-        {
+        }
+//        finally
+//        {
 //            if (client != null)
 //                client.close();
-        }
+//        }
     }
 
     /**
@@ -95,11 +97,12 @@ public class CuratorDemo
         } catch (Exception e)
         {
             e.printStackTrace();
-        }finally
-        {
-            if (client != null)
-                client.close();
         }
+//        finally
+//        {
+//            if (client != null)
+//                client.close();
+//        }
     }
 
 
@@ -112,11 +115,12 @@ public class CuratorDemo
         } catch (Exception e)
         {
             e.printStackTrace();
-        } finally
-        {
-            if (client != null)
-                client.close();
         }
+//        finally
+//        {
+//            if (client != null)
+//                client.close();
+//        }
 
     }
 
@@ -128,11 +132,12 @@ public class CuratorDemo
         } catch (Exception e)
         {
             e.printStackTrace();
-        } finally
-        {
-            if (client != null)
-                client.close();
         }
+//        finally
+//        {
+//            if (client != null)
+//                client.close();
+//        }
     }
 
     public static void query(CuratorFramework client,String node){
@@ -143,11 +148,12 @@ public class CuratorDemo
         } catch (Exception e)
         {
             e.printStackTrace();
-        } finally
-        {
-            if (client != null)
-                client.close();
         }
+//        finally
+//        {
+//            if (client != null)
+//                client.close();
+//        }
     }
 
     public static void creta(CuratorFramework client,String node,String data){
@@ -158,11 +164,12 @@ public class CuratorDemo
         } catch (Exception e)
         {
             e.printStackTrace();
-        } finally
-        {
-            if (client != null){
-                client.close();
-            }
         }
+//        finally
+//        {
+//            if (client != null){
+//                client.close();
+//            }
+//        }
     }
 }

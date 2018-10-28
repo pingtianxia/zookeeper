@@ -14,7 +14,8 @@ import org.apache.curator.retry.ExponentialBackoffRetry;
  */
 public class CuratorUtil
 {
-    private static String connectStr = "192.168.80.134:2181,192.168.80.135:2181,192.168.80.136:2181";
+//    private static String connectStr = "192.168.80.134:2181,192.168.80.135:2181,192.168.80.136:2181";
+    private static String connectStr = "192.168.80.200:2181";
 
     private static class innerClass{
         private static final CuratorFramework client = CuratorFrameworkFactory.builder().connectString(connectStr).connectionTimeoutMs(5000).retryPolicy(new ExponentialBackoffRetry(1000,3)).build();
